@@ -31,7 +31,7 @@ c= Canvas(frame_graficacion, width=BASE, height=ALTURA)
 c.config(bg="black")
 c.place(x=10, y=10)
 
-#dibujar una linea recta
+""""#dibujar una linea recta
 linea_1 = c.create_line(BASE/2, ALTURA/2, BASE,0, fill="red", width=2)
 linea_2 = c.create_line(BASE,ALTURA, BASE/2, ALTURA/2,fill="thistle", width=2)
 linea_3 = c.create_line(0, ALTURA, BASE/2, ALTURA/2, fill="blue", width=2)
@@ -53,6 +53,21 @@ activefill="cyan")
 #dibujar rectangulo
 rect_1 = c.create_rectangle(BASE/2,ALTURA/2, BASE,ALTURA, fill="pink", outline="blue")
 rect_2 = c.create_rectangle(0,0, 0.5*BASE/2,1*ALTURA/2, fill="lime green", outline="black")
+
+
+#dibujar circulos
+circ_1 = c.create_oval(BASE/2,0,BASE,ALTURA/2, fill="orange")
+circ_2 = c.create_oval(0,ALTURA/2,BASE/4,ALTURA, fill="yelow")
+circ_3 = c.create_oval(BASE/4,ALTURA/2,BASE/2,ALTURA, fill="red") 
+
+
+
+#dibijar ṕoligonos
+polig_1= c.create_polygon(3*BASE/4,ALTURA/2,BASE,ALTURA,BASE/2,ALTURA,fill="red")
+polig_2= c.create_polygon(BASE/1,0,BASE/2,ALTURA/4,BASE/4,ALTURA/2,0,ALTURA/4, fill="white", outline="black")"""""
+
+#dibujar cruz
+polig_3 = c.create_polygon(0,0/4,fill="thistle")
 #--------------------
 #frame de controles
 #-------------------
